@@ -3,5 +3,7 @@ public class Main {
         System.err.println("hello world");
         char a = 15;
         System.out.println("char "+a);
+        stringVariable stringVariable = new stringVariable();
+        stringVariable.check();
     }
 }
