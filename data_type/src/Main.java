@@ -5,5 +5,6 @@ public class Main {
         System.out.println("char "+a);
         stringVariable stringVariable = new stringVariable();
         stringVariable.check();
+        Constractor.getConstractor();
     }
 }

@@ -1,4 +1,12 @@
 public class Constractor {
-    //today's topic constructor
-    //Access modifier
+
+    int x;
+    private Constractor(int x){
+        System.err.println("inside constractor");
+        this.x = x;
+
+    }
+    static Constractor getConstractor(){
+        return new Constractor(10);
+    }
 }
