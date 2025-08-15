@@ -1,0 +1,3 @@
+without the help of generic file
+we can declar properties object type but we have to casting
+for ignoring this cast,generic class intruduce with us.
